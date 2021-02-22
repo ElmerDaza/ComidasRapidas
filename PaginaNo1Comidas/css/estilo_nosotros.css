@@ -1,0 +1,75 @@
+.main_title{
+    font-size: 40px;
+}
+.main_txt{
+    line-height: 40px;
+    font-size: 20px;
+}
+.group_title{
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    padding: 15px;
+    margin: 30px;
+    font-weight: bold;
+}
+
+
+.column_33{
+    width: 100%;
+    margin: 15px;
+    text-align: justify;
+    font-size: 25px;
+    
+}
+.our_team_title{
+    
+    color: white;
+    border-radius: 35%;
+    background: #fa1616;
+    text-align: center;
+    font-size: 30px;
+    margin: 15px;
+    box-shadow: -2px 2px 3px #29020259
+}
+.our_team_txt{
+    margin-top: 25px;
+}
+.our_team_img{
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+@media (min-width: 500px){
+    .our_team_title{
+        background: none;
+        color: black;
+    }
+}
+@media (min-width: 770px){
+    .our_team_img{
+        width: 400px;
+        height: 400px;
+        margin-bottom: 50px;
+    }
+}
+@media (min-width: 1080px){
+    .column_33{
+        width: 31%;
+        margin: 10px;
+        text-align: justify;
+        font-size: 25px;
+        
+    }
+    .our_team_img{
+        width: 350px;
+        height: 350px;
+    }
+    .main_title{
+        font-size: 60px;
+    }
+    
+}

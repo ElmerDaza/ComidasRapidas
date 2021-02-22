@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria | fast Foot</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, maximum-escale=2.5, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/estilos_galeria.css">
+
+    <!--enlaces a los iconos y la tipografia-->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=PT+Serif:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/font.css">
+    
+</head>
+<body>
+    <!--este modal se utiliza para mostrar la imagen en pantalla completa 
+    y que se quede pagado en el contenido de la pantalla-->
+
+    <div class="modal" id="modal">
+        <div class="modal_content">
+            <img src="" alt="" class="modal_img" id="modal_img">
+        </div>
+        <div class="modal_boton" id="modal_boton">
+            x
+        </div>
+    </div>
+    <header class="main">
+        <div class="container flex"> 
+            <div class="contenedor-logo column column-50">
+                <h1 class="logo">Logo Restaurant</h1>
+            </div>
+                <div class="main-header__contacto column column-50">
+                 <p class="main-header__phone">
+                    <span class="in-phone"> 999-999-999</span>
+                 </p>
+                 <p class="main-header__direccion">
+                    <span class="in-map"> calle donde quiera No 123</span>
+                 </p>
+            </div>
+        </div>
+    </header>
+    <nav class="main-nav">
+        <div class="contenedor flex">
+            <span class="in-menu icono-menu" id="btn_menu"></span>
+            <ul class="menu" id="menu">
+
+                <li class="menu_item"><a href="/" class="menu_link ">Inicio</a></li>
+
+                <li class="menu_item"><a href="nosotros.html" class="menu_link ">Nosotros</a></li>
+
+                <li class="menu_item"><a href="galeria.html" class="menu_link link_seleccionado">Galeria</a></li>
+
+                <li class="menu_item"><a href="contactos.html" class="menu_link">Contactos</a></li>
+
+            </ul>
+            <div class="social_icon">
+
+                <a href="#" class="social_icon_link"><span class="in-twitter"></span></a>
+
+                <a href="#" class="social_icon_link"><span class="in-facebook"></span></a>
+
+                <a href="#" class="social_icon_link"><span class="in-mail"></span></a>
+
+            </div>
+        </div>
+    </nav>
+    <section class="baner">
+        <img src="img/banerGaleria.jpg" alt="burgerClasic" class="baner_img">
+        <div class="baner_content">
+            las mejores recetas para deleitarte
+        </div>
+    </section>
+    <main class="main">
+        
+
+        
+        <div class="group galeria">
+            <h2 class="main_title">Nuestra Galeria</h2>
+            
+            <div class="contenedor flex">
+                
+                <div class="column column-50-25">
+                    <img src="img/Galeria/gal1.jpg" alt=""class="galeria_img galeria_img_big">
+                    <img src="img/Galeria/gal2.jpg" alt=""class="galeria_img galeria_img_small">
+                </div>
+
+                <div class="column column-50-25">
+                    <img src="img/Galeria/gal3.jpg" alt=""class="galeria_img galeria_img_small">
+                    <img src="img/Galeria/gal4.jpg" alt=""class="galeria_img galeria_img_big">
+                </div>
+
+                <div class="column column-50-25">
+                    <img src="img/Galeria/gal5.jpg" alt=""class="galeria_img galeria_img_big">
+                    <img src="img/Galeria/gal6.jpg" alt=""class="galeria_img galeria_img_small">
+                </div>
+
+                <div class="column column-50-25">
+                    <img src="img/Galeria/gal7.jpg" alt=""class="galeria_img galeria_img_small">
+                    <img src="img/Galeria/gal8.jpg" alt=""class="galeria_img galeria_img_big">
+                </div>
+
+            </div>
+        </div>
+
+        
+
+
+        <footer class="main_footer">
+            <div class="contenedor flex">
+                <div class="column column_33">
+                    <h2 class="column_title">Porque visitarnos</h2>
+                    <p class="column_txt">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem, adipisci ipsum in explicabo, illum iste accusantium .</p>
+                </div>
+                <div class="column column_33">
+                    <h2 class="column_title">Contactanos</h2>
+                    <p class="in-map column_txt">calle donde quiera No 123</p>
+                    <p class="column_txt in-phone"> 999-999-999</p>
+                    <p class="column_txt in-mail"> comes@ejemplo.com</p>
+                </div>
+                <div class="column column_33">
+                    <h2 class="column_title">Siguenos en las redes</h2>
+                    <p class="column_txt"><a href="" class="in-twitter link_redes">
+                        Siguenos en twitter
+                    </a></p>
+                    <p class="column_txt"><a href="" class="in-facebook link_redes">
+                        facebook
+                    </a></p>
+                    <p class="column_txt"><a href="" class="in-youtube link_redes">
+                        visita nuestro canal
+                    </a></p>
+                </div>
+                <div class="column">
+                    <p class="derechos">© 2020 Fast Foot || todos los derechos recervados </p>
+                </div>
+            </div>
+        </footer>
+
+    </main>
+    <script src="js/menu.js"></script>
+    <script src="js/modal.js"></script>
+</body>
+</html>

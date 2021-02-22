@@ -1,0 +1,28 @@
+.contact_information{
+    padding: 0 10px 15px 10px;
+    margin: 10px;
+    border-bottom: 1px solid black;
+    
+    
+}
+.contact_information [class*="in-"]{
+    font-size: 1.5em;
+    position: relative;
+    
+}
+.contact_information .social_icon{
+    justify-content: flex-start;
+    margin-top: 20px;
+    
+}
+.contact_information .social_icon_link{
+    margin-right: 25px;
+}
+.contact_information .social_icon_link [class*=in-]{
+
+    width: 70px;
+    height: 50px;
+}
+.formulario{
+
+}
